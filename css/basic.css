@@ -1,1 +1,130 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+/*Layout*/
+body {
+    height:600px;
+}
+
+#container {
+    margin:0 auto;
+    max-width:600px;
+    height:100%;
+}
+
+#topbar {
+    text-align:right;
+    background-image:url(pics/coffey.jpg);
+    background-repeat:no-repeat;
+    background-position:0 15px;
+    height:220px;
+    background-color:#4E4A43;
+    color:#EEE7DE;
+    font-family:Verdana, sans-serif;
+    font-size:10px;
+    font-style:italic;
+}
+
+#menu {
+  background-color:#A29A90;
+  overflow:auto;
+  
+  
+}
+
+#menu ul li {
+    list-style-type:none;
+    display:inline;
+    padding:11px;
+    
+}
+
+#menu a {
+  font-size:14px;
+  font-family:Verdana;
+  text-decoration:none;
+  color:#EEE7DE;
+}
+
+#content {
+    background-color:#EEE7DE;
+    height:63%;
+}
+
+#maincontent {
+    float:left;
+    padding:10px;
+    width:350px;
+}
+
+#maincontent img {
+    float:left;
+    display:block
+    padding:10px;
+}
+
+#maincontent h1 {
+    font-family:"Times New Roman", Times, serif;
+    font-weight:normal;
+    color:#8A837A;
+}
+
+#maincontent p {
+    
+    font-family:Verdana, sans-serif;
+    font-size:13px;
+    color:#8A837A;
+}
+
+
+#subcontent {
+    display:block;
+    float:right;
+    padding:10px;
+    width:200px;
+    border-left:1px dashed #A49B90;
+}
+
+#subcontent h1 {
+    font-family:"Times New Roman", Times, serif;
+    font-weight:normal;
+    color:#726C65;
+    font-size:15px;
+    height:31px;
+    margin-top:40px;
+}
+
+#subcontent h2 {
+    font-family:"Times New Roman", Times, serif;
+    font-weight:normal;
+    color:#726C65;
+    font-size:14px;
+}
+
+#subcontent a {
+    font-family:Verdana, sans-serif;
+    font-size:13px;
+    color:#726C65;
+}
+
+#subcontent ul li {
+    list-style-type:none;
+    margin-left:-40px;
+}
+
+#subcontent p {
+    font-family:Verdana, sans-serif;
+    font-size:9px;
+    color:#8A837A;
+    height:124px;
+}
+
+#bottomcontent {
+    float:left;
+    font-family:Verdana, sans-serif;
+    font-size:10px;
+    font-style:italic;
+    color:#8A837A;
+}
+
+
+
+
+
